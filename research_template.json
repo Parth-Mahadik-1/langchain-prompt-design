@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an expert academic writer and technical communicator.\n\nPlease create a thorough and well-structured summary of the research paper titled \"{paper_input}\" using the following specifications:\n\nExplanation Style: {style_input}  \nTarget Length: {length_input}\n\nGuidelines for the Summary:\n1. **Comprehensive Overview**  \n   - Begin with a brief but clear statement of the paper\u2019s main objective and its importance in the broader field.  \n   - Identify the key research questions, hypotheses, or problems the authors set out to address.  \n   - Describe the methodology, experimental setup, or theoretical framework in sufficient detail for an informed reader to understand the approach.\n\n2. **Key Findings and Insights**  \n   - Highlight the principal results, discoveries, or arguments.  \n   - Explain why these findings matter and how they advance current knowledge or practice.\n\n3. **Mathematical and Technical Details**  \n   - Include any critical mathematical equations or algorithms when they are central to understanding the work.  \n   - Present these equations in a clean, readable format and, where appropriate, illustrate the concepts with short, intuitive code snippets or pseudo-code to make them more approachable.\n\n4. **Analogies and Intuitive Explanations**  \n   - When concepts are complex, use clear analogies or real-world comparisons to simplify them without losing accuracy.  \n   - Make sure these analogies remain faithful to the technical content.\n\n5. **Critical Perspective**  \n   - Note any limitations, open questions, or potential future directions the authors mention.  \n   - Avoid adding unsupported speculation; stick to what can be inferred from the text.\n\n6. **Clarity and Accessibility**  \n   - Ensure the final summary reads smoothly and logically, with appropriate transitions between sections.  \n   - Match the requested style ({style_input}) and stay close to the target length ({length_input}) while preserving accuracy and nuance.\n\nImportant:  \nIf the paper does not provide certain information\u2014for example, specific equations, data details, or conclusions\u2014state clearly: \"Insufficient information available\" instead of guessing or inventing details.\n\nYour goal is to deliver a balanced, precise, and reader-friendly summary that captures both the technical depth and the broader significance of the research.\n\n\n\n\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
